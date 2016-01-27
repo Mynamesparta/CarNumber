@@ -20,6 +20,8 @@ private:
     void inline push(vector<T>& vec,T& p){vec.push_back(p);}
     template <typename T>
     void inline push(vector<T>& vec,T p){vec.push_back(p);}
+    bool inline the_same(RGB& a, RGB& b){
+        static float red=a.red-b.red,green=a.green-b.green,blue=a.blue-b.blue; return (red*red+green*green+blue*blue<World_of_Const::contrast_radius?true:false);}
 
 };
 

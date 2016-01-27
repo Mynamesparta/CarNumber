@@ -22,4 +22,9 @@ public:
     float x,y;
 };
 
+namespace World_of_Const
+{
+    const float contrast_radius=15;
+    const float similarity=15;
+}
 #endif // WORLD_OF_STRUCT_H

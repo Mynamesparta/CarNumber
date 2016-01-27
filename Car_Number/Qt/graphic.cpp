@@ -23,6 +23,8 @@ void Graphic::addImage(Image &image)
 }
 void Graphic::addRedInfinitySnake(vector<Point> vec)
 {
+    if(vec.size()<=1)
+        return ;
     int i=0;
     for(;i<vec.size()-1;i++)
     {

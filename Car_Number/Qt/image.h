@@ -14,6 +14,7 @@ public:
     QImage& getImage();
     RGB getPixel(int x,int y);
     string getName();
+    void magic_cube();
 private:
     QImage image;
     string    _name;

@@ -16,11 +16,6 @@ vector<vector<Point> >& Algorithm::FindNumber_of_Car(Image& image)
 {
     Numbers_of_Car.clear();
     vector<Point> vec;
-    push(vec,Point(0,0));
-    push(vec,Point(100,100));
-    push(vec,Point(100,200));
-    push(vec,Point(200,200));
-    push(vec,Point(300,100));
     addNumber(vec);
     return Numbers_of_Car;
 }
